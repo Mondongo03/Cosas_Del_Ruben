@@ -1,6 +1,5 @@
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.io.PrintWriter;
 import java.util.Scanner;
 
 public class CharsFileToScreen1 {
@@ -15,8 +14,8 @@ public class CharsFileToScreen1 {
             letra = input.nextLine();
             num = letra.charAt(0);
             num = (char) (num-32);
-            letraMayus = String.valueOf((char)num);
+            letraMayus = String.valueOf(num);
             System.out.println(letra + " "+ letraMayus);
-        };
+        }
     }
 }
