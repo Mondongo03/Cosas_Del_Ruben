@@ -19,16 +19,16 @@ public class TreballadorsToFile1 {
         while (continuar.equals("Y")) {
             System.out.println("Quin es el nom del treballador?");
             nom = input.nextLine();
-            pwInput.println(nom);
+
             System.out.println("Quin es el cognom del treballador?");
             cognom = input.nextLine();
-            pwInput.println(cognom);
+
             System.out.println("Quin es el salari del treballador?");
             salari = input.nextInt();
-            pwInput.println(salari);
+
             System.out.println("Esta casat?");
             casat = input.nextBoolean();
-            pwInput.println(casat);
+            pwInput.println("("+nom+", "+cognom+", "+salari+", "+casat+")");
             input.nextLine();
 
             System.out.println("Vols continuar?");
