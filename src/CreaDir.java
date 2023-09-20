@@ -11,7 +11,7 @@ public class CreaDir {
         String dir = input.nextLine();
 
         File f = new File(dir);
-        
+
         if (f.exists()){
             System.out.println("No ha sigut possible crear el directori");
         }
