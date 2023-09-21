@@ -8,7 +8,7 @@ public class CopyFilesFRFW {
         try {
             FileReader file = new FileReader(args[0]);
             BufferedReader reader = new BufferedReader(file);
-            FileWriter fw = new FileWriter(System.getProperty("user.dir") + File.separator + args[1], false);
+            FileWriter fw = new FileWriter(args[1]);
             BufferedWriter bw = new BufferedWriter(fw);
 
             while (!finals){
