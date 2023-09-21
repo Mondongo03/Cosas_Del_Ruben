@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Empleats>
+    <Empleat>
+        <Id>001</Id>
+        <Cognom>Perez</Cognom>
+        <Departament>I+D</Departament>
+        <Sou>1000</Sou>
+    </Empleat>
+    <Empleat>
+        <Id>002</Id>
+        <Cognom>Sanchez</Cognom>
+        <Departament>Ventas</Departament>
+        <Sou>1000</Sou>
+    </Empleat>
+    <Empleat>
+        <Id>003</Id>
+        <Cognom>Moreno</Cognom>
+        <Departament>RRHH</Departament>
+        <Sou>1000</Sou>
+    </Empleat>
+<Empleat>
+<Id>002</Id>
+<Cognom>Julián</Cognom>
+<Departament>Julián</Departament>
+<Sou>Julián</Sou></Empleat><Empleat>
+<Id>2</Id>
+<Cognom>Julián</Cognom>
+<Departament>Julián</Departament>
+<Sou>Julián</Sou></Empleat></Empleats>
